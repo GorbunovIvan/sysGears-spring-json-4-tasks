@@ -1,0 +1,32 @@
+{
+  "firstQuestion":{
+    "content":"What is your marital status?",
+    "possibleAnswers":["Single", "Married"]
+  },
+  "questions":[
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"What is your marital status?",
+        "answer":"Single"
+      },
+      "content":"Are you planning on getting married next year?",
+      "possibleAnswers":["Yes", "No"]
+    },
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"What is your marital status?",
+        "answer":"Married"
+      },
+      "content":"How long have you been married?",
+      "possibleAnswers":["Less than a year", "More than a year"]
+    },
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"How long have you been married?",
+        "answer":"More than a year"
+      },
+      "content":"Have you celebrated your one year anniversary?",
+      "possibleAnswers":["Yes", "No"]
+    }
+  ]
+}

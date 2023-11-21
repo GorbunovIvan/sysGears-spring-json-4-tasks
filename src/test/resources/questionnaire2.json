@@ -1,0 +1,40 @@
+{
+  "firstQuestion":{
+    "content":"Do you read books?",
+    "possibleAnswers":["Yes", "No"]
+  },
+  "questions":[
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"Do you read books?",
+        "answer":"Yes"
+      },
+      "content":"How often do you read?",
+      "possibleAnswers":["Everyday", "Every week", "Every month"]
+    },
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"How often do you read?",
+        "answer":"Every week"
+      },
+      "content":"Do you want to read more often?",
+      "possibleAnswers":["Yes", "No"]
+    },
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"How often do you read?",
+        "answer":"Every month"
+      },
+      "content":"Why is it so rare?",
+      "possibleAnswers":["Have no time", "I don't know"]
+    },
+    {
+      "previousQuestionAndAnswer":{
+        "question-content":"Why is it so rare?",
+        "answer":"Have no time"
+      },
+      "content":"Will you find time to read more often?",
+      "possibleAnswers":["Yes", "No"]
+    }
+  ]
+}
